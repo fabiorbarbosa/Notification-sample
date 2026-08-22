@@ -1,0 +1,71 @@
+I’ll inspect the project structure, then add Angular-specific ignore rules to `.gitignore`.
+
+Add this to `.gitignore`:
+
+````gitignore
+# Dependencies
+node_modules/
+
+# Angular build output
+dist/
+.angular/
+.angular/cache/
+
+# Test coverage
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+```# filepath: /Volumes/SSD-EXT-MAC-FB/Projects/Notification-sample/.gitignore
+
+# Dependencies
+node_modules/
+
+# Angular build output
+dist/
+.angular/
+.angular/cache/
+
+# Test coverage
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
